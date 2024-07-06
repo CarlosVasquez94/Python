@@ -133,3 +133,7 @@ if __name__ == "__main__":
     # Ensure that the image is a square matrix
 
     Image.fromarray(avgpooling(np.array(image), size=3, stride=2)).show()
+
+
+
+## This comment will not be seen by the interpreter

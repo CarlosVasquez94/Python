@@ -3,6 +3,8 @@
 import numpy as np
 from PIL import Image
 
+var = "exponential"
+
 
 # Maxpooling Function
 def maxpooling(arr: np.ndarray, size: int, stride: int) -> np.ndarray:
